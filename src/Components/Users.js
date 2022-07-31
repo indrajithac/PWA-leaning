@@ -25,9 +25,9 @@ function Users() {
                 </Button>
             </Form>
             <ListGroup className='m-5'>
-                {users.map((user,index) => {
+                {users.map((user, index) => {
                     return (
-                        <ListGroup.Item>{index+1},{user}</ListGroup.Item>
+                        <ListGroup.Item key={index}>{index + 1}. {user}</ListGroup.Item>
                     )
                 })}
 
