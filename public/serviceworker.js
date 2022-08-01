@@ -27,6 +27,13 @@ self.addEventListener('fetch', (event) => {
     )
 });
 
+//or 
+//self.addEventListener('fetch',(event)=>{
+//   event.renpondWith(
+//      fetch(event.request).catch(()=>caches.match(event.request))
+//       )
+//})
+
 // Activate the SW , clean up old cache
 self.addEventListener('activate', (event) => {
     const cacheWhitelist = [];
