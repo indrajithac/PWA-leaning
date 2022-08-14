@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ListGroup } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import InstallButton from './InstallButton/InstallButton';
 
 function Users() {
     const [name, setName] = useState("");
@@ -13,8 +14,10 @@ function Users() {
         setName("");
     }
     console.log("users", users);
+
     return (
         <>
+            <InstallButton />
             <Form onSubmit={handleSubmit} className='m-2'>
                 <Form.Group className="mb-3" controlId="name">
                     <Form.Label>Name</Form.Label>
