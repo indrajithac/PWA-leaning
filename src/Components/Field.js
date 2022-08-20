@@ -26,9 +26,9 @@ function Field() {
 
   return (
     <div className="m-2 d-flex flex-column justify-content-center align-items-center">
-      <img src="/logo.png" alt="logo" style={{ width: "20px" }} />
+      <img src="assets/logo.png" alt="logo" style={{ width: "20px" }} />
       <Button variant="outline-info" size="sm" href="/" className="m-2">
-       Home
+        Home
       </Button>
       <div>
         <div>
