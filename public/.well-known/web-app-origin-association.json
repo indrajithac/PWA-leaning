@@ -1,0 +1,11 @@
+{
+    "web_apps": [
+      {
+        "manifest": "https://pwa-app-indrajith.netlify.app/manifest.json",
+        "details": {
+          "paths": ["*"],
+          "exclude_paths": []
+        }
+      }
+    ]
+  }
